@@ -14,6 +14,9 @@
     position: relative;
 }
 
+a{
+    text-decoration: none;
+}
 
 .footer{
     min-height: 300px;
@@ -74,9 +77,10 @@ ul.list-group li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 8rem;
     align-items: center;
     text-align: center;
+
 }
 
 .about-content h1{
@@ -84,10 +88,27 @@ ul.list-group li {
 }
 .about{
     padding: 2rem;
-
+    text-align: center;
+    width: 70%;
+    margin: auto;
 }
 
 .about h1{
     color: palevioletred;
 
+}
+
+.css-11olvni {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+.form-content{
+    display: flex;
+    
 }
