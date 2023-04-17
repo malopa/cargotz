@@ -4,9 +4,10 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-/* .container{
-    background-image:url(../img/plane.jpeg);
-} */
+.banner-page{
+    background-image:url(../img/plane2.jpg);
+    background-size: cover;
+}
 .banner-info{
     background-image:url(../img/banner.webp);
     background-size: cover;
