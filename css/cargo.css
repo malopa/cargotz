@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .banner-info{
     background-image:url(../img/banner.webp);
     background-size: cover;
     min-height: 650px;
-    position: relative;cd
+    position: relative;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+    font-weight: bold;
+    margin: auto;
+}
+
+.mission-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.servives{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-service{
+    width: 30%;
+}
+
+.text{
+    padding: 10px;
+    text-align: center;
 }
