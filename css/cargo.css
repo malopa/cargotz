@@ -40,9 +40,33 @@
 
 .card-service{
     width: 30%;
+    height: 20rem;
+    text-align: center;
 }
 
 .text{
     padding: 10px;
     text-align: center;
+}
+
+.about-content{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content h1{
+    color: palevioletred;
+}
+.about{
+    padding: 2rem;
+
+}
+
+.about h1{
+    color: palevioletred;
 }
