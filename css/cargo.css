@@ -4,9 +4,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-.container{
+/* .container{
     background-image:url(../img/plane.jpeg);
-}
+} */
 .banner-info{
     background-image:url(../img/banner.webp);
     background-size: cover;
