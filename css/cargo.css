@@ -44,6 +44,7 @@ ul.list-group li {
     color: palevioletred;
     font-weight: bold;
     margin:20px  auto;
+    margin-top: 4rem;
 
 }
 
@@ -58,23 +59,36 @@ ul.list-group li {
 }
 
 
+
 .servives{
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f8f9fd;
 }
 
 .card-service{
     width: 30%;
-    height: 20rem;
+    min-height: 10rem;
     text-align: center;
+    box-shadow: 0 0 10px #e8edf8;
+    margin: 1rem;
+    padding:1rem;
+    border-radius: 15px;
+    background-color: #FFF;
 }
 
+
+.card-service > h3{
+    padding: 6px 0;
+    border-bottom: 1px solid #eff1f6;
+}
 .text{
     padding: 10px;
     text-align: center;
+    color:#788396;
 }
 
 .about-content{
@@ -173,3 +187,62 @@ label{
 .css-f04oje{
     display:flex;
 }
+
+.slider{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    height: 300px;
+}
+
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  border-radius: 15px;
+}
+
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+  }
+
+
+
+  .carousel img {
+    display: block;
+    height: 200px;
+  }
+  
+  @media screen and ( min-width: 768px ) {
+    .carousel img {
+      height: 400px;
+    }
+  }
+
+
+  #myslider { width:612px; height:512px; }
+
+  .left{
+    padding:10px;
+    border-radius: 20px;
+    width: 512px;
+  }

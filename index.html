@@ -55,12 +55,44 @@
 
 
         <!-- sliders -->
-        <div>
+        <div class="slider">
 
-            <div class="main-carousel">
-                <div class="carousel-cell">content one</div>
-                <div class="carousel-cell">Content 2</div>
-                <div class="carousel-cell">Content three</div>
+            <!-- <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+                
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+                
+              </div> -->
+
+
+              <div class="left">
+                <h1>Cargotz</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem harum nostrum nihil iure nobis ipsum blanditiis libero, minus error maiores.
+              </div>
+
+
+              <div id="myslider">
+                
+                <a href="http://placekitten.com/g/612/612" rel="0">
+                    <img src="http://placekitten.com/g/612/612"/>
+                </a>
+
+                <a href="https://unsplash.it/612/612" rel="0">
+                    <img src="https://unsplash.it/612/612"/>
+                </a>
+
+                <a href="https://unsplash.it/612/612?random=1" rel="0">
+                    <img src="https://unsplash.it/612/612?random=1"/>
+                </a>
+
+                <a href="https://unsplash.it/612/612?random=2" rel="0">
+                    <img src="https://unsplash.it/612/612?random=2"/>
+                </a>
+
               </div>
 
               
@@ -68,7 +100,7 @@
 
         <!-- end sliders -->
 
-    <div class="mission mt-4">
+    <div class="mission">
         <h1>Our Mission</h1>
 
     </div>
@@ -116,6 +148,14 @@
             <h3>Land Freight</h3>
             <p class="text">
                 We offer transportation of Cargo once they arrive, from our warehouses in Tanzania to our customer’s doorstep. Our customers do not need to follow us, we follow them wherever they are. 
+            </p>
+        </div>
+
+
+        <div class="card-service">
+            <h3>24/7 Support</h3>
+            <p class="text">
+                Receive support from our experts all over the world at every stage of the process, 24/7. 
             </p>
         </div>
 
@@ -173,5 +213,20 @@
 
     <script src="js/bootstrap5/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+
+    <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+  <script src="http://prinzhorn.github.io/0/0.js"></script>
+  <script>
+    var imgSlider = simpleslider.getSlider({
+      container: document.getElementById('myslider'),
+      prop: 'left',
+      init: -612,
+      show: 0,
+      end: 612,
+      unit: 'px'
+    });
+  </script>
+
+
 </body>
 </html>
