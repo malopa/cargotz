@@ -173,3 +173,39 @@ label{
 .css-f04oje{
     display:flex;
 }
+
+.banner-links{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.btnLinks{
+    width: 260px;
+    height: 50px;
+    background-color: #FFF;
+    margin: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btnLinks a{
+    color: palevioletred;
+}
+.btnLinks:hover{
+    background-color: palevioletred;
+}
+.btnLinks a:hover{
+    color: #fff;
+}
+
+.socialLinks h1{    
+  background: -webkit-linear-gradient(#eee, rgb(214, 78, 124));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
