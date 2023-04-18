@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BM Cargo</title>
+    <link rel="icon" sizes="100*100" href="img/logo.jpg">
     <link rel="stylesheet" href="css/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cargo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,19 +17,22 @@
     <!--banner-->
     <nav class="navbar fixed-top navbar-expand lg bg-light" style="height: 80px; box-shadow: 0 4px 2px -2px grey;">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand"><h3>BM CARGO</h3></a>
+            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/logo.jpg" class="img-responsive" style="width: 80px; border-radius: 20px;"><h3 class="ms-2">BM CARGO</h3></a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse ms-4" id="navbarNav">
-                <div class="navbar-nav">
-                    <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-                    <a href="#" class="nav-link">Services</a>
-                    <a href="about.html" class="nav-link">About</a>
-                    <a href="#" class="nav-link">Pricing</a>
-                    <a href="#" class="nav-link">Sustainability</a>
-                    <a href="#" class="nav-link">Resources</a>
+            <div class="d-flex align-items-right">
+                <div class="collapse navbar-collapse ms-4" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Pricing</a>
+                        <a href="#" class="nav-link">Sustainability</a>
+                        <a href="#" class="nav-link">Resources</a>
+                    </div>
                 </div>
             </div>
         </div>
