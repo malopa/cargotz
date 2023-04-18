@@ -1,0 +1,3 @@
+$('selector').flickity()
+
+alert("hellow")
