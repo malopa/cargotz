@@ -102,6 +102,9 @@ ul.list-group li {
 
 }
 
+#vision,#mission{
+    margin-top: 7em;
+}
 .about-content h1{
     color: palevioletred;
 }
