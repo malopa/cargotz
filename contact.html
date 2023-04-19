@@ -8,142 +8,169 @@
     <link rel="icon" sizes="100*100" href="img/logo.jpg">
     <link rel="stylesheet" href="css/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cargo.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
 </head>
 <body>
-    <!--banner-->
-    <nav class="navbar fixed-top navbar-expand lg bg-white" style="height: 80px; box-shadow: 0 4px 2px -2px rgb(0 0 0 / 0.2);">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/logo.jpg" class="img-responsive" style="width: 80px; border-radius: 20px;"><h3 class="ms-2">BM CARGO</h3></a>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-white" style="box-shadow: 0 4px 2px -2px rgb(0 0 0 / 0.2);">
+        <div class="container">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/logo.jpg" class="img-responsive" style="width: 80px; border-radius: 20px;"><h3 class="ms-2">BM CARGO</h3></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="d-flex align-items-right">
-                <div class="collapse navbar-collapse ms-4" id="navbarNav">
-                    <div class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                    <li class="nav-item">
                         <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#services" class="nav-link">Services</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Sustainability</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Resources</a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </nav>
-    <main>
-        <div class="form-content">
-            <div class="left col-md-4">
-                <p style="font-size: 18px;padding:10px 20px;font-size: 24px;text-align: center;">Tell what you need and where to deliver</p>
-                <div style="padding:10px 20px;text-align: center;">
-                    We do deliver service to where you stay,
+    <!-- end of header-->
+
+    <!-- Contact Section -->
+    <section class="contact d-flex align-items-center" id="contact_section">
+        <div class="container mt-4">
+           <div class="section-title">
+                <h2><strong>Contact</strong></h2>
+                <p>Tell what you need and where to deliver</p>
+                <p>We do deliver service to where you stay</p>
+           </div>
+
+           <div class="row">
+            <div class="col-lg-5 d-flex align-items-stretch">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Location:</h4>
+                    <p></p>
+                  </div>
+    
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p></p>
+                  </div>
+    
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call:</h4>
+                    <p></p>
+                  </div>
                 </div>
-            </div>
-
-            <div class="form mt-4" >
-
-                <div style="padding: 10;">
-                    No rates are currently available. But please fill just a few fields and get an individual offer!
-                    <h3>Quick Request</h3>
-                </div>
-
-                <div class="control">
-                    <div>
-                        <label for="">Product</label>
-                        <input class="input" placeholder="Product" />
+    
+              </div>
+    
+              <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="form-group">
+                      <label for="name">Full Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
                     </div>
-                    <div>
-                        <label for="">Phone Number</label>
-                        <input class="input" placeholder="+255000000" />
-                    </div>
-                </div>
-
-                
-                <div class="control">
-                    <div>
-                        <label for="">Full Name</label>
-                        <input class="input" placeholder="Phone" />
-                    </div>
-
-                    <div>
-                        <label for="">E-mail</label>
-                        <input class="input" placeholder="Email " />
-                    </div>
-
-                </div>
-
-                <div class="control">
-                    <div style="width: 100%;">
-                        <label for="">Descriptions</label>
-                        <textarea class="desc" name="" placeholder="descriptions" id="" ></textarea>
-                    </div>
-                </div>
-
-                <button class="submit">Submit</button>
-            </div>
+                  <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Descriptions</label>
+                    <textarea class="form-control" name="description" rows="10" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+           </div>
         </div>
+    </section>
 
-    </main>
-
-
-    <!--footer-->
-    <div class="footer">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="socialLinks mt-4 ms-5">
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-3 mt-4 socialLinks">
                     <h1>BM Cargo</h1>
                     <ul class="list-group">
-                        <li><i class="fab fa-facebook-f me-3" style="color: #3b5998;"></i><a href="">Facebook</a></li>
-                        <li><i class="fab fa-twitter me-3" style="color: #55acee;"></i><a href="">Twitter</a></li>
-                        <li><i class="fab fa-whatsapp me-3" style="color: #25d366;"></i><a href="">Whatsapp</a></li>
-                        <li><i class="fab fa-instagram me-3" style="color: #ac2bac;"></i><a href="">Instagram</a></li>
+                        <li><i class="fab fa-facebook-f " style="color: #3b5998;"></i> <a href="">Facebook</a></li>
+                        <li><i class="fab fa-twitter " style="color: #55acee;"></i> <a href="">Twitter</a></li>
+                        <li><i class="fab fa-whatsapp " style="color: #25d366;"></i> <a href="">Whatsapp</a></li>
+                        <li><i class="fab fa-instagram " style="color: #ac2bac;"></i> <a href="">Instagram</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4 class="mt-4">PRODUCTS</h4>
-                        <ul class="list-group">
-                            <li class="">CargoMART</li>
-                            <li class="">CargoCONNECT</li>
-                            <li class="">CargoGATE</li>
-                            <li class="">CargoINTEL</li>
-                            <li class="">Cargo2ZERO</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">RESOURCES</h4>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">PRODUCTS</h4>
+                    <ul class="list-group">
+                        <li class="">CargoMART</li>
+                        <li class="">CargoCONNECT</li>
+                        <li class="">CargoGATE</li>
+                        <li class="">CargoINTEL</li>
+                        <li class="">Cargo2ZERO</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">RESOURCES</h4>
                         <ul class="list-group">
                             <li class="">Blogs</li>
                             <li class="">Press Release</li>
                             <li class="">Pod Interviews</li>
                             <li class="">News</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">COMPANY</h4>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">COMPANY</h4>
                         <ul class="list-group">
                             <li class=""><a href="about.html">About</a></li>
-                            <li class="">Careers</li>
+                            <li class=""><a href="contact.html">Make request</a></li>
                             <li class="">Advisors</li>
                             <li class="">Technical Support</li>
                             <li class="">Partnership Opportunities</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
+    <!-- end -->
 
 
     <script src="js/bootstrap5/js/bootstrap.min.js"></script>
-</body>
+    <script src="js/app.js"></script>
 
+    <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+  <script src="http://prinzhorn.github.io/0/0.js"></script>
+</body>
+</html>
