@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BM Cargo</title>
-    <link rel="icon" sizes="100*100" href="img/logo.jpg">
+    <link rel="icon" sizes="100*100" href="img/bmcargo.jpeg">
     <link rel="stylesheet" href="css/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cargo.css">
 
@@ -15,126 +15,138 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!-- coppy style -->
 
+    
+    <!-- end copy style -->
 </head>
 <body>
-    <!--banner-->
-    <nav class="navbar fixed-top navbar-expand lg bg-white" style="height: 80px; box-shadow: 0 4px 2px -2px rgb(0 0 0 / 0.2);">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand d-flex justify-content-between">
-                <img src="img/logo.jpg" class="img-responsive" style="width: 80px; border-radius: 20px;">
-                <!-- <h3 class="ms-2">BM CARGO</h3> -->
-            </a>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-white" style="box-shadow: 0 4px 2px -2px rgb(0 0 0 / 0.2);">
+        <div class="container">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/bmcargo.jpeg" class="img-responsive" style="width: 80px; border-radius: 20px;">
+                <h3 class="ms-2">BM CARGO</h3></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="d-flex align-items-right">
-                <div class="collapse navbar-collapse ms-4" id="navbarNav">
-                    <div class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                    <li class="nav-item">
                         <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#services" class="nav-link">Services</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Pricing</a>
-                        <a href="#" class="nav-link">Sustainability</a>
-                        <a href="#" class="nav-link">Resources</a>
-                    </div>
-                </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#quote" class="nav-link">Why Choose us?</a>
+                    </li>
+
+
+                </ul>
+
             </div>
         </div>
     </nav>
+    <!-- end of header-->
 
-    <main style="margin-top:80px">
-        <div class="banner-page">
+    <!-- Banner -->
+    <section class="d-flex align-items-center" id="section_1">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="d-flex justify-content-center">
-                        <div class="banner-links">
-                            <h4 class="d-flex justify-content-center fw-bold">OUR DIGITAL SOLUTIONS</h4>
-
-                            <div class="btnLinks"><a href="contact.html">Booking</a></div>
-                            <div class="btnLinks"><a href="#">Sustainability</a></div>
-                            <!-- <div class="btnLinks"></div> -->
-                        </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                    <h2 class="">OUR DIGITAL SOLUTIONS</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <ul>
+                            <li><a href="contact.html">Booking</a></li>
+                            <li><a href="">Sustainability</a></li>
+                        </ul>
                     </div>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <!-- <div class=""> -->
+                        <img src="img/banner.webp" alt="" width="650px" height="500px" class="img-fluid">
+                    <!-- </div> -->
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner end -->
+
+    <!-- Main Contents-->
+    <section id="section_2" class="d-flex align-items-center">
+        <div class="container">
+            <div class="slider">
+                <div class="message">
+                    <h1>BM Cargo</h1>
+                    <p>
+                        BM Cargo is a young and fast growing International Cargo Company founded in December 2022, with her headquarters in Tanzania. We are a trusted community marketplace that enables everyone to make shipments in a few easier steps, with guaranteed security and with convenient prices
+                    </p>
+
                 </div>
-                <div class="col-md-8">
-                    <div class="banner-info mt-4"></div>
+                
+
+                <div  id="myslider">
+                    <a href="http://placekitten.com/g/612/612" rel="0">
+                        <img src="http://placekitten.com/g/612/612" class="img-fluid"/>
+                    </a>
+    
+                    <a href="https://unsplash.it/612/612" rel="0">
+                        <img src="https://unsplash.it/612/612" class="img-fluid"/>
+                    </a>
+    
+                    <a href="https://unsplash.it/612/612?random=1" rel="0">
+                        <img src="https://unsplash.it/612/612?random=1" class="img-fluid"/>
+                    </a>
+    
+                    <a href="https://unsplash.it/612/612?random=2" rel="0">
+                        <img src="https://unsplash.it/612/612?random=2" class="img-fluid"/>
+                    </a>
+    
                 </div>
             </div>
         </div>
+    </section>
+    <!-- end -->
 
 
+    <!-- mission section-->
+    <section id="section_3" class="mission mb-10">
+        <div class="">
+            <div class="section-title">
+                <h2>Our Mission</h2>
+                <p style="width:60%;text-align: center;">Bringing out the best experience that will leave a lasting impression on our customers.</p>
+            </div>
 
-        <!-- sliders -->
-        <div class="slider">
-
-            <!-- <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
-                
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
-                
-              </div> -->
-
-
-              <div class="left">
-                <h1>BM Cargo</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem harum nostrum nihil iure nobis ipsum blanditiis libero, minus error maiores.
-              </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div id="services" style="width:40%;text-align: center;margin: auto;">
+                <h2>Get the best for your business with BM Cargo</h2>
+            </div>
 
 
-              <div id="myslider">
-                
-                <a href="http://placekitten.com/g/612/612" rel="0">
-                    <img src="http://placekitten.com/g/612/612"/>
-                </a>
+            
 
-                <a href="https://unsplash.it/612/612" rel="0">
-                    <img src="https://unsplash.it/612/612"/>
-                </a>
-
-                <a href="https://unsplash.it/612/612?random=1" rel="0">
-                    <img src="https://unsplash.it/612/612?random=1"/>
-                </a>
-
-                <a href="https://unsplash.it/612/612?random=2" rel="0">
-                    <img src="https://unsplash.it/612/612?random=2"/>
-                </a>
-
-              </div>
-
-              
-        </div>
-
-        <!-- end sliders -->
-
-    <div class="mission">
-        <h1>Our Mission</h1>
-
-    </div>
-
-    
-    <div class="mission-content">
-        Bringing out the best experience that will leave a lasting impression on our customers.
-    </div>
-    
-
-
-    <div class="mission" style="margin-top: 4rem;width: 40%;text-align: center;" id="services">
-        <h1>
-            Get the best for your business with BM Cargo
-        </h1>
-    </div>
-
-
-
-
-    <div class="servives">
+<!-- start servies -->
+    <div class="servives" >
         
 
         <div class="card-service">
@@ -166,6 +178,7 @@
                 Receive support from our experts all over the world at every stage of the process, 24/7. 
             </p>
         </div>
+
         <div class="card-service">
             <h3>Warehouse services</h3>
             <p class="text">
@@ -175,61 +188,100 @@
 
         
     </div>
+    <!-- end services -->
 
-    </main>
+            
 
-    <!--footer-->
-    <div class="footer">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="socialLinks mt-4 ms-5">
-                    <!-- <h1>BM Cargo</h1> -->
-                <img src="img/logo.jpg" class="img-responsive" style="width: 120px; border-radius: 20px;">
+            </div>
+        </div>
+    </section>
+    <!-- end -->
 
+    <br />
+    <br />
+    <br />
+
+    <div class="last-section">
+        <div>
+            <h1>
+                100% Guaranteed
+            Delivery
+            </h1>
+        </div>
+        <div>
+            <img src="./img/world.png"/>
+        </div>
+    </div>
+
+    <div class="quote" id="quote">
+        <div>
+
+            <h2>Why Choose Us:</h2> 
+            Assured security<br />
+            On time delivery<br />
+            Customer friendly<br />
+            Delivery from China to your doorstep
+
+        </div>
+        <a href="contact.html">
+            <button class="btn-q">Request Qotes</button>
+        </a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-3 mt-4 socialLinks">
+                    <!-- <h1></h1> -->
+                    <img src="./img/bmcargo.jpeg" width="200" />
                     <ul class="list-group">
-                        <li><i class="fab fa-facebook-f me-3" style="color: #3b5998;"></i><a href="">Facebook</a></li>
-                        <li><i class="fab fa-twitter me-3" style="color: #55acee;"></i><a href="">Twitter</a></li>
-                        <li><i class="fab fa-whatsapp me-3" style="color: #25d366;"></i><a href="">Whatsapp</a></li>
-                        <li><i class="fab fa-instagram me-3" style="color: #ac2bac;"></i><a href="">Instagram</a></li>
+                        <li><i class="fab fa-facebook-f " style="color: #3b5998;"></i> <a href="">Facebook</a></li>
+                        <li><i class="fab fa-twitter " style="color: #13a4dd;"></i> <a href="">Twitter</a></li>
+                        <li><i class="fab fa-whatsapp " style="color: #25d366;"></i> <a href="">Whatsapp</a></li>
+                        <li><i class="fab fa-instagram " style="color: #063354;"></i> <a href="">Instagram</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4 class="mt-4">PRODUCTS</h4>
-                        <ul class="list-group">
-                            <li class="">CargoMART</li>
-                            <li class="">CargoCONNECT</li>
-                            <li class="">CargoGATE</li>
-                            <li class="">CargoINTEL</li>
-                            <li class="">Cargo2ZERO</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">RESOURCES</h4>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">PRODUCTS</h4>
+                    <ul class="list-group">
+                        <li class="">cars</li>
+                        <li class="">Electronics</li>
+                        <li class="">Clothes</li>
+                        <li class="">Building materials</li>
+                        <li class="">Cargo2ZERO</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">RESOURCES</h4>
                         <ul class="list-group">
                             <li class="">Blogs</li>
                             <li class="">Press Release</li>
                             <li class="">Pod Interviews</li>
                             <li class="">News</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">COMPANY</h4>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">COMPANY</h4>
                         <ul class="list-group">
                             <li class=""><a href="about.html">About</a></li>
                             <li class=""><a href="contact.html">Make request</a></li>
                             <li class="">Advisors</li>
                             <li class="">Technical Support</li>
-                            <li class="">Partnership Opportunities</li>
+                            
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div style="display: flex;justify-content: center;align-items: center;
+        padding: 1rem;
+        ">
+            copyright&copy2023 all right reserved Bm Cargo
+
+        </div>
+
+    </footer>
 
 
     <script src="js/bootstrap5/js/bootstrap.min.js"></script>
@@ -237,6 +289,7 @@
 
     <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
   <script src="http://prinzhorn.github.io/0/0.js"></script>
+
   <script>
     var imgSlider = simpleslider.getSlider({
       container: document.getElementById('myslider'),
@@ -247,7 +300,6 @@
       unit: 'px'
     });
   </script>
-
 
 </body>
 </html>

@@ -8,139 +8,148 @@
     <link rel="icon" sizes="100*100" href="img/logo.jpg">
     <link rel="stylesheet" href="css/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cargo.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 </head>
 <body>
-    <!--banner-->
-    <nav class="navbar fixed-top navbar-expand lg bg-light" style="height: 80px; box-shadow: 0 4px 2px -2px grey;">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/logo.jpg" class="img-responsive" style="width: 80px; border-radius: 20px;"><h3 class="ms-2">BM CARGO</h3></a>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-white" style="box-shadow: 0 4px 2px -2px rgb(0 0 0 / 0.2);">
+        <div class="container">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="index.html" class="navbar-brand d-flex justify-content-between"><img src="img/bmcargo.jpeg" class="img-responsive" style="width: 80px; border-radius: 20px;"><h3 class="ms-2">BM CARGO</h3></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="d-flex align-items-right">
-                <div class="collapse navbar-collapse ms-4" id="navbarNav">
-                    <div class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                    <li class="nav-item">
                         <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#services" class="nav-link">Services</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Pricing</a>
-                        <a href="#" class="nav-link">Sustainability</a>
-                        <a href="#" class="nav-link">Resources</a>
-                    </div>
-                </div>
+                    </li>
+
+                </ul>
+
             </div>
         </div>
     </nav>
 
 
-    <!-- <div class="css-11olvni" style="margin-top: 2rem;">
+    <main>
+        <div class="about-cove">
+            <div class="overlay"></div>
 
-    <svg height="500px" viewBox="0 0 1990 500" fill="none" 
-    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-    <path d="
-        M 0 435 
-        C 915 70, 1085 685 1990 440 
-        L 1990 0 L 0 0 Z
-      " fill="url(#top-wave-gradient)" fill-opacity="0.5">
-    </path><defs><linearGradient id="top-wave-gradient" 
-        x1="0" y1="230" x2="1990" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#D83A8E" offset="0" stop-opacity="0.9"></stop><stop stop-color="#7829DD" offset="0.630208" stop-opacity="1"></stop><stop stop-color="#49DDDA" offset="0.96875" stop-opacity="1"></stop></linearGradient></defs></svg>
+            <div class="about-content">
 
-      </div -->
+                <h2 class="color:white">About Us</h2>
 
-    <div class="about-content">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/vision.jpg" alt="">
             </div>
-            <div class="col-md-6">
-                <div id="vision">
-                    <h1>Vision:</h1>
-                    To expand our global networks and grow alongside our customers’ businesses 
-                </div> 
-            </div>
-        </div>
-        <div class="row" style="margin-top: 6em;">
-            <div class="col-md-6">
-                <div id="mission">
-                    <h1>Mission:</h1>
-                    Bringing out the best experience that will leave a lasting impression on our customers. 
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img src="img/mission.jpg" alt="">
-            </div>
+
         </div>
 
-        <div class="row" style="margin-top: 6em;">
-            <div class="col-md-12">
-                <h1>About Us</h1>
-                <p>
-                    BM Cargo is a young and fast growing International Cargo Company founded in December 2022, with her headquarters in Tanzania. We are a trusted community marketplace that enables everyone to make shipments in a few easier steps, with guaranteed security and with convenient prices. 
 
-                </p>
+        <div class="why">
+            <h1>Why Choose us</h1>
+            <div>
+                Assured security<br />
+                On time delivery<br />
+                Customer friendly<br />
+                Delivery from China to your doorstep
             </div>
+
         </div>
-    </div>
 
 
-    <!--footer-->
-    <div class="footer">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="socialLinks mt-4 ms-5">
-                    <h1>BM Cargo</h1>
+
+        <div class="why" style="margin-top:70px">
+            <h1>Our Vision</h1>
+            <div style="font-size: 18px;">
+                To expand our global networks and grow alongside our customers’ businesses
+
+            </div>
+
+        </div>
+
+    </main>
+    <!-- Banner -->
+    
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-3 mt-4 socialLinks">
+                    
+                    <img src="./img/bmcargo.jpeg" width="200" />
+
                     <ul class="list-group">
-                        <li><i class="fab fa-facebook-f me-3" style="color: #3b5998;"></i><a href="">Facebook</a></li>
-                        <li><i class="fab fa-twitter me-3" style="color: #55acee;"></i><a href="">Twitter</a></li>
-                        <li><i class="fab fa-whatsapp me-3" style="color: #25d366;"></i><a href="">Whatsapp</a></li>
-                        <li><i class="fab fa-instagram me-3" style="color: #ac2bac;"></i><a href="">Instagram</a></li>
+                        <li><i class="fab fa-facebook-f " style="color: #55acee"></i> <a href="">Facebook</a></li>
+                        <li><i class="fab fa-twitter " style="color: #55acee;"></i> <a href="">Twitter</a></li>
+                        <li><i class="fab fa-whatsapp " style="color: #25d366;"></i> <a href="">Whatsapp</a></li>
+                        <li><i class="fab fa-instagram " style="color: #ac2bac;"></i> <a href="">Instagram</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4 class="mt-4">PRODUCTS</h4>
-                        <ul class="list-group">
-                            <li class="">CargoMART</li>
-                            <li class="">CargoCONNECT</li>
-                            <li class="">CargoGATE</li>
-                            <li class="">CargoINTEL</li>
-                            <li class="">Cargo2ZERO</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">RESOURCES</h4>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">PRODUCTS</h4>
+                    <ul class="list-group">
+                        <li class="">cars</li>
+                        <li class="">Electronics</li>
+                        <li class="">Building material</li>
+                        <li class="">Spares</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">RESOURCES</h4>
                         <ul class="list-group">
                             <li class="">Blogs</li>
-                            <li class="">Press Release</li>
-                            <li class="">Pod Interviews</li>
                             <li class="">News</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mt-4">COMPANY</h4>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <h4 class="mt-4">COMPANY</h4>
                         <ul class="list-group">
                             <li class=""><a href="about.html">About</a></li>
                             <li class=""><a href="contact.html">Make request</a></li>
                             <li class="">Advisors</li>
                             <li class="">Technical Support</li>
-                            <li class="">Partnership Opportunities</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div style="display: flex;justify-content: center;align-items: center;
+        padding: 1rem;
+        ">
+            copyright&copy2023 all right reserved Bm Cargo
+
+        </div>
+
+    </footer>
+    <!-- end -->
 
 
     <script src="js/bootstrap5/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+  <script src="http://prinzhorn.github.io/0/0.js"></script>
 </body>
 </html>
